@@ -1,4 +1,4 @@
-# ** Design Patterns - Node **
+# **Design Patterns - Node**
 
 This repository displays examples of design patterns implementations using Node js and Typescript.
 
