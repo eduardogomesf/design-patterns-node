@@ -5,7 +5,7 @@ This repository displays examples of design patterns implementations using Node 
 What you will be able to learn:
 - What design patterns are
 - How and why they were created
-- The different categories of design patterns
+- The different classification of design patterns
 - Explanation of how each design pattern works
 - How to implement them
 
