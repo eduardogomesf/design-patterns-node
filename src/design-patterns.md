@@ -25,7 +25,7 @@ The most basic and low-level patterns are often called idioms. They usually appl
 The most universal and high-level patterns are architectural patterns. Developers can implement these patterns in virtually any language. Unlike other patterns, they can be used to design the architecture of an entire application.
 
 Below we can see the three main groups of Design Patterns:
-- Creational Patterns
+- [Creational Patterns](./creational/creational-patterns.md)
 - Structural patterns
 - Behavioral patterns
 
