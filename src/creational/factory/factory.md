@@ -12,7 +12,7 @@ A factory method can use its parameters to decide which **concrete product** sho
 - Product -> Interface of the object that will be returned from the factory
 - Concrete Product -> Real implementation of the Product interface (you can have many real implementations)
 
-Note that in this scenario, interfaces can be replaced by abstract classes.
+Note: Interfaces can be replaced by abstract classes.
 
 ## Refs
 - https://refactoring.guru/design-patterns/factory-method
