@@ -7,10 +7,10 @@ This pattern suggests that you replace the object construction calls (using the 
 A factory method can use its parameters to decide which **concrete product** should be created.
 
 ## Roles
-Creator -> Interface of the factory method
-Concrete Creator -> Real implementation of the factory method
-Product -> Interface of the object that will be returned from the factory
-Concrete Product -> Real implementation of the Product interface (you can have many real implementations)
+- Creator -> Interface of the factory method
+- Concrete Creator -> Real implementation of the factory method
+- Product -> Interface of the object that will be returned from the factory
+- Concrete Product -> Real implementation of the Product interface (you can have many real implementations)
 
 Note that in this scenario, interfaces can be replaced by abstract classes.
 
