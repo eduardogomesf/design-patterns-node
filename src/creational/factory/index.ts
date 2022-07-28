@@ -1,11 +1,15 @@
-import { DefaultEmployeeFactory } from './concrete/employee-factory'
+import { DeveloperFactory } from './concrete/developer-factory'
+import { TesterFactory } from './concrete/tester-factory'
+import { ArchitectFactory } from './concrete/architect-factory'
 
 (() => {
-  const employeeFactory = new DefaultEmployeeFactory()
+  const architectFactory = new ArchitectFactory()
+  const developerFactory = new DeveloperFactory()
+  const testerFactory = new TesterFactory()
 
-  const developer = employeeFactory.create('developer', 'Eduardo', '21', 3000)
-  const tester = employeeFactory.create('tester', 'Lucas', '25', 6000)
-  const architect = employeeFactory.create('architect', 'João', '33', 11500)
+  const developer = developerFactory.create('Eduardo', '21', 3000)
+  const tester = testerFactory.create('Lucas', '25', 6000)
+  const architect = architectFactory.create('João', '33', 11500)
 
   console.log(developer.getInfo())
   console.log(tester.getInfo())
