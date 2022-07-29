@@ -9,7 +9,7 @@ What you will be able to learn:
 - Explanation of how each design pattern works
 - How to implement them
 
-Start learning: [What is a design pattern?](./src/design-patterns.md)
+Start learning: [What is a design pattern?](./docs/design-patterns.md)
 
 ## Refs:
 [Refactoring Guru](https://refactoring.guru/design-patterns)
