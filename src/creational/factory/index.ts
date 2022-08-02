@@ -17,9 +17,9 @@ const architectInfo = architect.getInfo()
 
 // Logs
 console.log('-'.repeat(100))
-console.log(developerInfo)
-console.log(testerInfo)
-console.log(architectInfo)
+console.log('Developer: ', developerInfo)
+console.log('Tester: ', testerInfo)
+console.log('Architect: ', architectInfo)
 console.log('-'.repeat(100))
 
 // Tests
