@@ -3,7 +3,14 @@
 export class UserRepository {
   private static instance: UserRepository
 
-  private constructor () { }
+  private users: Array<{
+    id: number
+    name: string
+  }>
+
+  private constructor () {
+    this.users = [{ id: this.generateRandomId(), name: 'Eduardo' }, { id: this.generateRandomId(), name: 'Gomes' }]
+  }
 
   public static getInstance () {
     if (this.instance) {
@@ -16,6 +23,10 @@ export class UserRepository {
   }
 
   public getUsers () {
-    return [{ id: 1, name: 'Eduardo' }, { id: 2, name: 'Gomes' }]
+    return this.users
+  }
+
+  private generateRandomId () {
+    return Math.floor((Math.random() * 1000) + 1)
   }
 }
