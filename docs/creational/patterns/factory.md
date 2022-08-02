@@ -15,5 +15,5 @@ A factory method can use its parameters to decide which **concrete product** sho
 Note: Interfaces can be replaced by abstract classes.
 
 ## Refs
-- https://refactoring.guru/design-patterns/factory-method
-- https://www.youtube.com/watch?v=1rB0PhvAwiU
+[Refactoring Guru](https://refactoring.guru/design-patterns/factory-method)
+[Youtube](https://www.youtube.com/watch?v=1rB0PhvAwiU)

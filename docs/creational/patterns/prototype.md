@@ -1,4 +1,4 @@
-# Prototype Pattern
+# **Prototype Pattern**
 
 The prototype is a creational design pattern that lets you copy existing objects without making your code dependent on their classes.
 
@@ -11,5 +11,5 @@ Prototype Registry -> Class that provides an easy way to access frequently-used 
 
 
 ## Refs
-- https://refactoring.guru/design-patterns/prototype
-- https://www.youtube.com/watch?v=Z-_smcjkdwM
+[Refactoring Guru](https://refactoring.guru/design-patterns/prototype)
+[Youtube](https://www.youtube.com/watch?v=Z-_smcjkdwM)
