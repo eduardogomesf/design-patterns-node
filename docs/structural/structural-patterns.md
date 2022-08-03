@@ -3,7 +3,7 @@
 Structural design patterns explain how to assemble objects and classes into larger structures, while keeping these structures flexible and efficient.
 
 ## List of patterns
-- Adapter
+- [Adapter](./patterns/adapter-pattern.md)
 - Bridge
 - Composite
 - Decorator
