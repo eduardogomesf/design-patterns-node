@@ -9,9 +9,9 @@ It's recommend when you need to create a very complex object.
 It often uses method chaining
 
 ## Roles
-Builder -> Interface of the builder (steps)
-Concrete Builder -> Real implementation of the builder
-Product -> Concrete object that will be created (there is no interface since a builder can return different types)
+Builder -> Interface of the builder (steps) <br/>
+Concrete Builder -> Real implementation of the builder <br/>
+Product -> Concrete object that will be created (there is no interface since a builder can return different types) <br/>
 Director -> Class that defines the order of construction of a object (Optional)
 
 Note: Interfaces can be replaced by abstract classes.
