@@ -12,5 +12,5 @@ Adaptee -> Third-party dependency or legacy code that will be adapted <br/>
 Adapter -> Implementation that adapts the Adaptee to suit the Client Interface
 
 ## Refs
-[Refactoring Guru](https://refactoring.guru/design-patterns/adapter)
-[Youtube](https://www.youtube.com/watch?v=Y69BsV9-23M)
+[Refactoring Guru](https://refactoring.guru/design-patterns/adapter) <br/>
+[Youtube](https://www.youtube.com/watch?v=Y69BsV9-23M) <br/>

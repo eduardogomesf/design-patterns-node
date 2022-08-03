@@ -11,5 +11,5 @@ Prototype Registry -> Class that provides an easy way to access frequently-used 
 
 
 ## Refs
-[Refactoring Guru](https://refactoring.guru/design-patterns/prototype)
-[Youtube](https://www.youtube.com/watch?v=Z-_smcjkdwM)
+[Refactoring Guru](https://refactoring.guru/design-patterns/prototype) <br/>
+[Youtube](https://www.youtube.com/watch?v=Z-_smcjkdwM) <br/>

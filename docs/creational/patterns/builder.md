@@ -17,5 +17,5 @@ Director -> Class that defines the order of construction of a object (Optional)
 Note: Interfaces can be replaced by abstract classes.
 
 ## Refs
-[Refactoring Guru](https://refactoring.guru//design-patterns/builder)
-[Youtube](https://www.youtube.com/watch?v=2VwLvwsIu-8)
+[Refactoring Guru](https://refactoring.guru//design-patterns/builder) <br/>
+[Youtube](https://www.youtube.com/watch?v=2VwLvwsIu-8) <br/>
