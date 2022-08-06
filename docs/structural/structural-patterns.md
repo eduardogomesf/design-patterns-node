@@ -8,8 +8,8 @@ Structural design patterns explain how to assemble objects and classes into larg
 - Composite
 - Decorator
 - Facade
-- Proxy
-- Flyweigh (won't be covered)
+- [Proxy](./patterns/proxy-pattern.md)
+- Flyweight (won't be covered)
 
 
 ## Refs
