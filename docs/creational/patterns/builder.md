@@ -1,6 +1,6 @@
 # **Builder Pattern**
 
-Builder is a creational design pattern that lets you construct complex objects step by step.
+**Builder** is a creational design pattern that lets you construct complex objects step by step.
 
 The pattern suggest the separation of code that creates the object from the one the uses it (client code).
 

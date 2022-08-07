@@ -1,6 +1,6 @@
 # **Factory Method Pattern**
 
-The factory pattern is a creational design pattern that provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created.
+The **factory** pattern is a creational design pattern that provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created.
 
 This pattern suggests that you replace the object construction calls (using the new operator) with calls to a special function/method that will be responsible for creating the objects, often referred to as products.
 

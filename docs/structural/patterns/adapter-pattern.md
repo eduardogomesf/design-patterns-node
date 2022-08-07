@@ -1,6 +1,6 @@
 # **Adapter Pattern**
 
-Adapter is a structural design pattern that allows objects with incompatible interfaces to collaborate
+**Adapter** is a structural design pattern that allows objects with incompatible interfaces to collaborate
 
 It does exactly what an adapter does in real life.
 
