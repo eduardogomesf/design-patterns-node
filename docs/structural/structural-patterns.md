@@ -5,7 +5,7 @@ Structural design patterns explain how to assemble objects and classes into larg
 ## List of patterns
 - [Adapter](./patterns/adapter-pattern.md)
 - Bridge
-- Composite
+- [Composite](./patterns/composite-pattern.md)
 - [Decorator](./patterns/decorator-pattern.md)
 - Facade
 - [Proxy](./patterns/proxy-pattern.md)
