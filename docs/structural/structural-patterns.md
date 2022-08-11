@@ -7,7 +7,7 @@ Structural design patterns explain how to assemble objects and classes into larg
 - Bridge
 - [Composite](./patterns/composite-pattern.md)
 - [Decorator](./patterns/decorator-pattern.md)
-- Facade
+- [Facade](./patterns/facade-pattern.md)
 - [Proxy](./patterns/proxy-pattern.md)
 - Flyweight (won't be covered)
 
