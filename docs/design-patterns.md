@@ -27,7 +27,7 @@ The most universal and high-level patterns are architectural patterns. Developer
 Below we can see the three main groups of Design Patterns:
 - [Creational Patterns](./creational/creational-patterns.md)
 - [Structural patterns](./structural//structural-patterns.md)
-- Behavioral patterns
+- [Behavioral patterns](./behavioral/behavioral-pattern.md)
 
 ## Refs:
 [Refactoring Guru](https://refactoring.guru/design-patterns/what-is-pattern)
