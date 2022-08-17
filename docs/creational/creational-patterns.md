@@ -4,7 +4,6 @@ Creational design patterns provide various object creation mechanisms, which inc
 
 ## List of patterns
 - [Factory Method](./patterns/factory.md)
-- Abstract Factory (won't be covered)
 - [Builder](./patterns/builder.md)
 - [Prototype](./patterns/prototype.md)
 - [Singleton](./patterns/singleton.md)

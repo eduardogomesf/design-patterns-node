@@ -8,9 +8,6 @@ Structural design patterns explain how to assemble objects and classes into larg
 - [Decorator](./patterns/decorator-pattern.md)
 - [Facade](./patterns/facade-pattern.md)
 - [Proxy](./patterns/proxy-pattern.md)
-- Flyweight (won't be covered)
-- Bridge (won't be covered)
-
 
 ## Refs
 [Structural Design Patterns](https://refactoring.guru/design-patterns/structural-patterns)
