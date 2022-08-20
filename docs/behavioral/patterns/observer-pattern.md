@@ -6,9 +6,9 @@ multiple objects, aka subscribers, about any events that happen to the object th
 This pattern is also known as Event-Subscriber or Listener
 
 ## Roles
-Publisher -> Emits events of interest to subscribers (other objects) <br/>
-Subscriber -> Interface that will be implemented by the concrete subscribers (real objects) <br/>
-Concrete Subscribers -> Real objects that are observing the publisher in order to perform some action after being notified <br/>
+Publisher/Observable -> Emits events of interest to subscribers (other objects) <br/>
+Subscriber/Observer -> Interface that will be implemented by the concrete subscribers (real objects) <br/>
+Concrete Subscribers/Concrete Observer -> Real objects that are observing the publisher in order to perform some action after being notified <br/>
 
 ## Refs
 [Refactoring Guru](https://refactoring.guru/design-patterns/observer) <br/>
