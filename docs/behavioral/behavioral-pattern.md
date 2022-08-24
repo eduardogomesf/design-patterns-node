@@ -6,7 +6,7 @@ Behavioral design patterns are concerned with algorithms and the assignment of r
 - [Observer](./patterns/observer-pattern.md) <br/>
 - Chain of Responsibility <br/>
 - [Strategy](./patterns/strategy-pattern.md) <br/>
-- Iterator <br/>
+- [Iterator](./patterns/iterator-pattern.md) <br/>
 
 ## Refs
 [Behavioral Design Patterns](https://refactoring.guru/design-patterns/behavioral-patterns)
