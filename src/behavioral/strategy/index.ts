@@ -1,8 +1,8 @@
-import assert from "assert";
-import { CarDeliveryStrategy } from "./concrete/car-delivery-strategy";
-import { DeliveryContext } from "./concrete/delivery-context";
-import { MotorcycleDeliveryStrategy } from "./concrete/motorcycle-delivery-strategy";
-import { TruckDeliveryStrategy } from "./concrete/truck-delivery-strategy";
+import assert from 'assert'
+import { CarDeliveryStrategy } from './concrete/car-delivery-strategy'
+import { DeliveryContext } from './concrete/delivery-context'
+import { MotorcycleDeliveryStrategy } from './concrete/motorcycle-delivery-strategy'
+import { TruckDeliveryStrategy } from './concrete/truck-delivery-strategy'
 
 const motorcycleDeliveryStrategy = new MotorcycleDeliveryStrategy()
 const carDeliveryStrategy = new CarDeliveryStrategy()
@@ -16,8 +16,8 @@ const objectSizes = {
   large: 'LARGE'
 }
 
-function getDeliveryPrice(orderPrice: number, objectSize: string) {
-  if(objectSize === objectSizes.small) {
+function getDeliveryPrice (orderPrice: number, objectSize: string) {
+  if (objectSize === objectSizes.small) {
     deliveryContext.setStrategy(motorcycleDeliveryStrategy)
   } else if (objectSize === objectSizes.medium) {
     deliveryContext.setStrategy(carDeliveryStrategy)
@@ -43,4 +43,3 @@ console.log('-'.repeat(100))
 assert.equal(motorcycleDeliveryPrice, 6.5)
 assert.equal(carDeliveryPrice, 24)
 assert.equal(truckDeliveryPrice, 93.6)
-
