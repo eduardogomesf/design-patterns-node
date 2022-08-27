@@ -2,7 +2,7 @@ type CustomerPersonalInformation = {
   id: string
   name: string
   email: string
-  phone: number
+  phone: string
 }
 
 type CustomerAddress = {
@@ -11,6 +11,7 @@ type CustomerAddress = {
   stateOrProvince: string
   neighborhood: string
   number: string
+  city: string
 }
 
 export interface CheckoutDto {
@@ -21,5 +22,5 @@ export interface CheckoutDto {
 export class CheckoutPayload {
   public approved = false
 
-  constructor (private payload: CheckoutDto) {}
+  constructor (public payload: CheckoutDto) { }
 }

@@ -3,7 +3,12 @@ import { CheckoutPayload } from './customer-order'
 
 export class CustomerAddressValidatorHandler extends BaseCheckoutHandler {
   handle (checkoutPayload: CheckoutPayload): CheckoutPayload {
-    if (this.nextHandler) return this.nextHandler.handle(checkoutPayload)
+    const { payload: { address } } = checkoutPayload
+
+    if (address.cep && address.country && address.neighborhood && address.number && address.stateOrProvince && address.city) {
+      return super.handle(checkoutPayload)
+    }
+
     return checkoutPayload
   }
 }
