@@ -4,7 +4,7 @@ Behavioral design patterns are concerned with algorithms and the assignment of r
 
 ## List of patterns
 - [Observer](./patterns/observer-pattern.md) <br/>
-- Chain of Responsibility <br/>
+- [Chain of Responsibility](./patterns/chain-of-responsibility-pattern.md) <br/>
 - [Strategy](./patterns/strategy-pattern.md) <br/>
 - [Iterator](./patterns/iterator-pattern.md) <br/>
 - [State](./patterns/state-pattern.md)
